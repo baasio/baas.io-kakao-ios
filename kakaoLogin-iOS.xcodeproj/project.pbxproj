@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FABC7B0E193434D700F167E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC7B0D193434D700F167E0 /* Foundation.framework */; };
+		FABC7B10193434D700F167E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC7B0F193434D700F167E0 /* CoreGraphics.framework */; };
+		FABC7B12193434D700F167E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC7B11193434D700F167E0 /* UIKit.framework */; };
+		FABC7B18193434D700F167E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABC7B16193434D700F167E0 /* InfoPlist.strings */; };
+		FABC7B1A193434D700F167E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC7B19193434D700F167E0 /* main.m */; };
+		FABC7B1E193434D700F167E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC7B1D193434D700F167E0 /* AppDelegate.m */; };
+		FABC7B21193434D700F167E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC7B1F193434D700F167E0 /* Main.storyboard */; };
+		FABC7B24193434D700F167E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC7B23193434D700F167E0 /* ViewController.m */; };
+		FABC7B26193434D700F167E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABC7B25193434D700F167E0 /* Images.xcassets */; };
+		FABC7B2D193434D700F167E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC7B2C193434D700F167E0 /* XCTest.framework */; };
+		FABC7B2E193434D700F167E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC7B0D193434D700F167E0 /* Foundation.framework */; };
+		FABC7B2F193434D700F167E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC7B11193434D700F167E0 /* UIKit.framework */; };
+		FABC7B37193434D800F167E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABC7B35193434D800F167E0 /* InfoPlist.strings */; };
+		FABC7B39193434D800F167E0 /* kakaoLogin_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC7B38193434D800F167E0 /* kakaoLogin_iOSTests.m */; };
+		FABC7B431934352300F167E0 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC7B421934352300F167E0 /* KakaoOpenSDK.framework */; };
+		FABC7B451934353300F167E0 /* baas.io.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC7B441934353300F167E0 /* baas.io.framework */; };
+		FABC7B471934376900F167E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC7B461934376900F167E0 /* SystemConfiguration.framework */; };
+		FABC7B491934760E00F167E0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC7B481934760E00F167E0 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FABC7B30193434D800F167E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABC7B02193434D700F167E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABC7B09193434D700F167E0;
+			remoteInfo = "kakaoLogin-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FABC7B0A193434D700F167E0 /* kakaoLogin-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kakaoLogin-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABC7B0D193434D700F167E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FABC7B0F193434D700F167E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FABC7B11193434D700F167E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FABC7B15193434D700F167E0 /* kakaoLogin-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kakaoLogin-iOS-Info.plist"; sourceTree = "<group>"; };
+		FABC7B17193434D700F167E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FABC7B19193434D700F167E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FABC7B1B193434D700F167E0 /* kakaoLogin-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kakaoLogin-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		FABC7B1C193434D700F167E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FABC7B1D193434D700F167E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FABC7B20193434D700F167E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FABC7B22193434D700F167E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FABC7B23193434D700F167E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FABC7B25193434D700F167E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FABC7B2B193434D700F167E0 /* kakaoLogin-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kakaoLogin-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABC7B2C193434D700F167E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FABC7B34193434D800F167E0 /* kakaoLogin-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kakaoLogin-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		FABC7B36193434D800F167E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FABC7B38193434D800F167E0 /* kakaoLogin_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kakaoLogin_iOSTests.m; sourceTree = "<group>"; };
+		FABC7B421934352300F167E0 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		FABC7B441934353300F167E0 /* baas.io.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = baas.io.framework; sourceTree = "<group>"; };
+		FABC7B461934376900F167E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FABC7B481934760E00F167E0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABC7B07193434D700F167E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABC7B491934760E00F167E0 /* MobileCoreServices.framework in Frameworks */,
+				FABC7B471934376900F167E0 /* SystemConfiguration.framework in Frameworks */,
+				FABC7B10193434D700F167E0 /* CoreGraphics.framework in Frameworks */,
+				FABC7B451934353300F167E0 /* baas.io.framework in Frameworks */,
+				FABC7B431934352300F167E0 /* KakaoOpenSDK.framework in Frameworks */,
+				FABC7B12193434D700F167E0 /* UIKit.framework in Frameworks */,
+				FABC7B0E193434D700F167E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABC7B28193434D700F167E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABC7B2D193434D700F167E0 /* XCTest.framework in Frameworks */,
+				FABC7B2F193434D700F167E0 /* UIKit.framework in Frameworks */,
+				FABC7B2E193434D700F167E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABC7B01193434D700F167E0 = {
+			isa = PBXGroup;
+			children = (
+				FABC7B13193434D700F167E0 /* kakaoLogin-iOS */,
+				FABC7B32193434D800F167E0 /* kakaoLogin-iOSTests */,
+				FABC7B0C193434D700F167E0 /* Frameworks */,
+				FABC7B0B193434D700F167E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABC7B0B193434D700F167E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABC7B0A193434D700F167E0 /* kakaoLogin-iOS.app */,
+				FABC7B2B193434D700F167E0 /* kakaoLogin-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABC7B0C193434D700F167E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FABC7B481934760E00F167E0 /* MobileCoreServices.framework */,
+				FABC7B461934376900F167E0 /* SystemConfiguration.framework */,
+				FABC7B441934353300F167E0 /* baas.io.framework */,
+				FABC7B421934352300F167E0 /* KakaoOpenSDK.framework */,
+				FABC7B0D193434D700F167E0 /* Foundation.framework */,
+				FABC7B0F193434D700F167E0 /* CoreGraphics.framework */,
+				FABC7B11193434D700F167E0 /* UIKit.framework */,
+				FABC7B2C193434D700F167E0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FABC7B13193434D700F167E0 /* kakaoLogin-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FABC7B1C193434D700F167E0 /* AppDelegate.h */,
+				FABC7B1D193434D700F167E0 /* AppDelegate.m */,
+				FABC7B1F193434D700F167E0 /* Main.storyboard */,
+				FABC7B22193434D700F167E0 /* ViewController.h */,
+				FABC7B23193434D700F167E0 /* ViewController.m */,
+				FABC7B25193434D700F167E0 /* Images.xcassets */,
+				FABC7B14193434D700F167E0 /* Supporting Files */,
+			);
+			path = "kakaoLogin-iOS";
+			sourceTree = "<group>";
+		};
+		FABC7B14193434D700F167E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FABC7B15193434D700F167E0 /* kakaoLogin-iOS-Info.plist */,
+				FABC7B16193434D700F167E0 /* InfoPlist.strings */,
+				FABC7B19193434D700F167E0 /* main.m */,
+				FABC7B1B193434D700F167E0 /* kakaoLogin-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FABC7B32193434D800F167E0 /* kakaoLogin-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FABC7B38193434D800F167E0 /* kakaoLogin_iOSTests.m */,
+				FABC7B33193434D800F167E0 /* Supporting Files */,
+			);
+			path = "kakaoLogin-iOSTests";
+			sourceTree = "<group>";
+		};
+		FABC7B33193434D800F167E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FABC7B34193434D800F167E0 /* kakaoLogin-iOSTests-Info.plist */,
+				FABC7B35193434D800F167E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABC7B09193434D700F167E0 /* kakaoLogin-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABC7B3C193434D800F167E0 /* Build configuration list for PBXNativeTarget "kakaoLogin-iOS" */;
+			buildPhases = (
+				FABC7B06193434D700F167E0 /* Sources */,
+				FABC7B07193434D700F167E0 /* Frameworks */,
+				FABC7B08193434D700F167E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kakaoLogin-iOS";
+			productName = "kakaoLogin-iOS";
+			productReference = FABC7B0A193434D700F167E0 /* kakaoLogin-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FABC7B2A193434D700F167E0 /* kakaoLogin-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABC7B3F193434D800F167E0 /* Build configuration list for PBXNativeTarget "kakaoLogin-iOSTests" */;
+			buildPhases = (
+				FABC7B27193434D700F167E0 /* Sources */,
+				FABC7B28193434D700F167E0 /* Frameworks */,
+				FABC7B29193434D700F167E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABC7B31193434D800F167E0 /* PBXTargetDependency */,
+			);
+			name = "kakaoLogin-iOSTests";
+			productName = "kakaoLogin-iOSTests";
+			productReference = FABC7B2B193434D700F167E0 /* kakaoLogin-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABC7B02193434D700F167E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = baas.io;
+				TargetAttributes = {
+					FABC7B2A193434D700F167E0 = {
+						TestTargetID = FABC7B09193434D700F167E0;
+					};
+				};
+			};
+			buildConfigurationList = FABC7B05193434D700F167E0 /* Build configuration list for PBXProject "kakaoLogin-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FABC7B01193434D700F167E0;
+			productRefGroup = FABC7B0B193434D700F167E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABC7B09193434D700F167E0 /* kakaoLogin-iOS */,
+				FABC7B2A193434D700F167E0 /* kakaoLogin-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABC7B08193434D700F167E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABC7B26193434D700F167E0 /* Images.xcassets in Resources */,
+				FABC7B18193434D700F167E0 /* InfoPlist.strings in Resources */,
+				FABC7B21193434D700F167E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABC7B29193434D700F167E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABC7B37193434D800F167E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABC7B06193434D700F167E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABC7B24193434D700F167E0 /* ViewController.m in Sources */,
+				FABC7B1E193434D700F167E0 /* AppDelegate.m in Sources */,
+				FABC7B1A193434D700F167E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABC7B27193434D700F167E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABC7B39193434D800F167E0 /* kakaoLogin_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FABC7B31193434D800F167E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABC7B09193434D700F167E0 /* kakaoLogin-iOS */;
+			targetProxy = FABC7B30193434D800F167E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FABC7B16193434D700F167E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABC7B17193434D700F167E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FABC7B1F193434D700F167E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABC7B20193434D700F167E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FABC7B35193434D800F167E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABC7B36193434D800F167E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABC7B3A193434D800F167E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FABC7B3B193434D800F167E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABC7B3D193434D800F167E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kakaoLogin-iOS/kakaoLogin-iOS-Prefix.pch";
+				INFOPLIST_FILE = "kakaoLogin-iOS/kakaoLogin-iOS-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FABC7B3E193434D800F167E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kakaoLogin-iOS/kakaoLogin-iOS-Prefix.pch";
+				INFOPLIST_FILE = "kakaoLogin-iOS/kakaoLogin-iOS-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FABC7B40193434D800F167E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kakaoLogin-iOS.app/kakaoLogin-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kakaoLogin-iOS/kakaoLogin-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kakaoLogin-iOSTests/kakaoLogin-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FABC7B41193434D800F167E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kakaoLogin-iOS.app/kakaoLogin-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kakaoLogin-iOS/kakaoLogin-iOS-Prefix.pch";
+				INFOPLIST_FILE = "kakaoLogin-iOSTests/kakaoLogin-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABC7B05193434D700F167E0 /* Build configuration list for PBXProject "kakaoLogin-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABC7B3A193434D800F167E0 /* Debug */,
+				FABC7B3B193434D800F167E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABC7B3C193434D800F167E0 /* Build configuration list for PBXNativeTarget "kakaoLogin-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABC7B3D193434D800F167E0 /* Debug */,
+				FABC7B3E193434D800F167E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FABC7B3F193434D800F167E0 /* Build configuration list for PBXNativeTarget "kakaoLogin-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABC7B40193434D800F167E0 /* Debug */,
+				FABC7B41193434D800F167E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABC7B02193434D700F167E0 /* Project object */;
+}
