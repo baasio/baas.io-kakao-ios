@@ -8,16 +8,13 @@
 
 #import "AppDelegate.h"
 
-#define BAAS_IO_ID @"53fb18c8-ce7f-11e3-ba5f-02005ab8001c"
-#define BAAS_IO_APPLICATION_ID @"ae2a77d0-ce9e-11e3-ba5f-02005ab8001c"
-#define BAAS_IO_API_URL @"https://stgapi.baas.io"
+#define BAAS_IO_ID @"YOUR_BAAS_IO_ID"
+#define BAAS_IO_APPLICATION_ID @"YOUR_BAAS_IO_APPLICATION_ID"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Baasio setApplicationInfo:BAAS_IO_API_URL baasioID:BAAS_IO_ID applicationName:BAAS_IO_APPLICATION_ID];
-    
-//    [Baasio setApplicationInfo:BAAS_IO_ID applicationName:BAAS_IO_APPLICATION_ID];
+    [Baasio setApplicationInfo:BAAS_IO_ID applicationName:BAAS_IO_APPLICATION_ID];
     [[Baasio sharedInstance] isDebugMode:YES];
     return YES;
 }
